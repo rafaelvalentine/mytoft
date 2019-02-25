@@ -52,13 +52,13 @@ export default class CustomNavbar extends Component {
     return (
       <div id='nav-div'>
         <aside id='mySidenav' className='sidenav'>
-          <h4>TOFT TECHNOLOGY</h4>
+          <h4>TOFT Technology</h4>
           <ul>
             <li><a className='closebtn' onClick={this.closeNav}>&times;</a></li>
-            <li className='link'><Link to='/1'>About</Link></li>
-            <li className='link'><Link to='/2'>Services</Link></li>
-            <li className='link'><Link to='/3'>Clients</Link></li>
-            <li className='link'><Link to='/4'>Contact</Link></li>
+            <li className='link'><Link to='/about'>About Us</Link></li>
+            <li className='link'><Link to='/services'>Services</Link></li>
+            <li className='link'><Link to='/blog'>Blog</Link></li>
+            <li className='link'><Link to='/contact'>Contact</Link></li>
           </ul>
         </aside>
 
@@ -69,8 +69,9 @@ export default class CustomNavbar extends Component {
           <div>
             <ul id='nav-main-list' className='nav-main-list'>
               <li> <img src='assets/img/magnifying-glass.svg' alt='search' /> </li>
-              <li>hello</li>
-              <li>hello</li>
+              <li> <img src='assets/img/facebook.svg' alt='search' /> </li>
+              <li> <img src='assets/img/twitter.svg' alt='search' /> </li>
+              <li> <img src='assets/img/google-plus.svg' alt='search' /> </li>
             </ul>
           </div>
         </div>

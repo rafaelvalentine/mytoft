@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Jumbotron, Button, Card, Container, Row, Col } from 'react-bootstrap'
+
  import './Home.css'
 
 
@@ -166,7 +167,7 @@ news:[
               <Button variant='primary'>Learn more</Button>
             </p>
           </Jumbotron>
-          <img src="assets/img/cloud-biz.jpg" alt="cloud" srcset=""/>
+          <img src="assets/img/cloud-biz.jpg" alt="cloud" />
         </div>
         <section className='our-core'>
           <h3> Our Core </h3>

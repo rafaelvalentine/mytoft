@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Navbar from './components/Navbar/CustomNavbar'
+import Footer from './components/Footer/Footer'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Home from './components/Home/Home'
 
@@ -13,7 +14,9 @@ class App extends Component {
 
           <Navbar />
           <Route exact path='/' component={Home} />
+          <Footer />
         </div>
+      
       </Router>
       // <div className="App">
       //   <header className="App-header">

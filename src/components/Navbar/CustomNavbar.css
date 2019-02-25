@@ -34,6 +34,10 @@
     /* 0.5 second transition effect to slide in the sidenav */
 }
 
+.sidenav ul {
+    text-align: center;
+}
+
 
 /* The navigation menu links */
 
@@ -47,10 +51,18 @@
     border: 1px solid rgba(255, 255, 255, .5);
     width: 100%;
     border-bottom: none;
+    margin: 0 auto;
 }
 
 .sidenav .link:last-child {
     border: 1px solid rgba(255, 255, 255, .5);
+}
+
+.sidenav .link:hover {
+    color: #24BBF2;
+    display: block;
+    transition: 0.3s;
+    background: #24BBF2;
 }
 
 .sidenav .link a {
@@ -86,6 +98,7 @@
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+    margin-top: 20px;
     color: #fff;
     opacity: .5;
 }
@@ -107,6 +120,7 @@
     color: #fff;
     align-self: center;
     margin: 0 20px;
+    font-size: 1.5rem;
 }
 
 .nav-main-list {
