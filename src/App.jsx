@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Home from './components/Home/Home'
 import About from './components/About/About'
 import Services from './components/Services/Services'
+import Blog from './components/Blog/Blog'
 
 import './App.css'
 
@@ -16,11 +17,12 @@ class App extends Component {
 
           <Navbar />
           <Route exact path='/' component={Home} />
-          <Route exact path='/about' component={About} />
-          <Route exact path='/services' component={Services} />
+          <Route path='/about' component={About} />
+          <Route path='/services' component={Services} />
+          <Route path='/blog' component={Blog} />
           <Footer />
         </div>
-      
+
       </Router>
       // <div className="App">
       //   <header className="App-header">
