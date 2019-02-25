@@ -217,7 +217,7 @@ news:[
         </section>
 
         <section className='news'>
-          <h3><i class="fas fa-align-right"></i> Blog </h3>
+          <h3><i class="fas fa-align-right"></i> News</h3>
           <hr/>
           <Container>
             <Row>

@@ -4,6 +4,7 @@ import Footer from './components/Footer/Footer'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Home from './components/Home/Home'
 import About from './components/About/About'
+import Services from './components/Services/Services'
 
 import './App.css'
 
@@ -16,6 +17,7 @@ class App extends Component {
           <Navbar />
           <Route exact path='/' component={Home} />
           <Route exact path='/about' component={About} />
+          <Route exact path='/services' component={Services} />
           <Footer />
         </div>
       
