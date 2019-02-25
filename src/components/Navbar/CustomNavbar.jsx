@@ -58,14 +58,15 @@ export default class CustomNavbar extends Component {
   render () {
     return (
       <div id='nav-div'>
+        
         <aside id='mySidenav' className='sidenav'>
-          <h4>TOFT Technology</h4>
+          <h4><Link onClick={this.closeNav} to='/'>TOFT Technology</Link></h4>
           <ul>
             <li><a className='closebtn' onClick={this.closeNav}>&times;</a></li>
-            <li className='link'><Link to='/about'>About Us</Link></li>
-            <li className='link'><Link to='/services'>Services</Link></li>
-            <li className='link'><Link to='/blog'>Blog</Link></li>
-            <li className='link'><Link to='/contact'>Contact</Link></li>
+            <li className='link' onClick={this.closeNav}><Link to='/about'>About Us</Link></li>
+            <li className='link' onClick={this.closeNav}><Link to='/services'>Services</Link></li>
+            <li className='link' onClick={this.closeNav}><Link to='/blog'>Blog</Link></li>
+            <li className='link' onClick={this.closeNav}><Link to='/contact'>Contact</Link></li>
           </ul>
         </aside>
 

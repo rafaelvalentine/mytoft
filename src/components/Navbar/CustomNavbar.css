@@ -76,10 +76,11 @@
     margin: 0 auto;
 }
 
-.sidenav h4 {
+.sidenav h4 a {
     margin: 10px;
     color: #fff;
     text-align: center;
+    font-size: 25px;
 }
 
 
