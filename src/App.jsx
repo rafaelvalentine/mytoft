@@ -6,6 +6,7 @@ import Home from './components/Home/Home'
 import About from './components/About/About'
 import Services from './components/Services/Services'
 import Blog from './components/Blog/Blog'
+import Contact from './components/Contact/Contact'
 
 import './App.css'
 
@@ -20,6 +21,7 @@ class App extends Component {
           <Route path='/about' component={About} />
           <Route path='/services' component={Services} />
           <Route path='/blog' component={Blog} />
+          <Route path='/contact' component={Contact} />
           <Footer />
         </div>
 
