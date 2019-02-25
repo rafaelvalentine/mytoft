@@ -170,7 +170,7 @@ news:[
           <img src="assets/img/cloud-biz.jpg" alt="cloud" />
         </div>
         <section className='our-core'>
-          <h3> Our Core </h3>
+          <h3> <i class="fas fa-align-right"></i> Our Core </h3>
           <hr/>
           <Container>
             <Row>
@@ -180,7 +180,7 @@ news:[
        
         </section> 
         <section className='services'>
-          <h3> What we do </h3>
+          <h3><i class="fas fa-align-right"></i> What we do </h3>
           <hr/>
           <Container>
             <Row>
@@ -190,7 +190,7 @@ news:[
        
         </section> 
         <section className='clients'>
-          <h3> Clients </h3>
+          <h3><i class="fas fa-align-right"></i> Clients </h3>
           <hr/>
           <Container>
             <Row>
@@ -217,7 +217,7 @@ news:[
         </section>
 
         <section className='news'>
-          <h3> Blog </h3>
+          <h3><i class="fas fa-align-right"></i> Blog </h3>
           <hr/>
           <Container>
             <Row>
@@ -227,7 +227,7 @@ news:[
         </section>
        
         <section className='partners'>
-          <h3> Partners </h3>
+          <h3><i class="fas fa-align-right"></i> Partners </h3>
           <hr/>
           <Container>
             <Row>

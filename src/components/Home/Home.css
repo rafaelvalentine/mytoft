@@ -252,3 +252,25 @@
 .partners .card img {
     height: 100px;
 }
+
+@media screen and (min-width: 720px) {
+    #home .jumbotron-section {
+        /* flex-direction: row; */
+        margin: 0 0 30px;
+        padding: 20px 0 0;
+    }
+    #home h3 {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #home .jumbotron-section {
+        flex-direction: row;
+        margin: 0;
+        padding: 20px 0 0;
+    }
+    #home h3 {
+        margin-left: 70px;
+    }
+}

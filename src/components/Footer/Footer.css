@@ -69,3 +69,29 @@
 .footer .footer-links .footer-legal p:not(:first-child) {
     color: #a0a0a0;
 }
+
+@media screen and (min-width: 1000px) {
+    .footer .footer-links .footer-links-content {
+        display: flex;
+        justify-content: center;
+    }
+    .footer .footer-links-text {
+        font-size: .75rem;
+        display: block;
+        padding: 0 40px;
+        width: 50%;
+    }
+    .footer .footer-links-text p {
+        font-size: .9rem;
+    }
+    .footer .footer-links .footer-legal {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+    .footer .footer-links .footer-legal .footer-legal-one {
+        display: none;
+    }
+}

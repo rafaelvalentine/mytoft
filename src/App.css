@@ -14,7 +14,7 @@ body,
 #main,
 html {
     padding: 0 !important;
-    margin: 0 !important;
+    margin: 0;
     width: 100% !important;
     height: 100% !important;
     background: #fff;

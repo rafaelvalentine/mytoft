@@ -9,7 +9,7 @@ const Tooltipz = (props) => {
     <ButtonToolbar>
       <Dropdown>
         <Dropdown.Toggle id='dropdown-custom-1'>
-        
+
         </Dropdown.Toggle>
         <Dropdown.Menu className='super-colors'>
           <Dropdown.Item eventKey='1'>Action</Dropdown.Item>
@@ -38,8 +38,15 @@ export default class CustomNavbar extends Component {
   /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
   openNav () {
     document.getElementById('mySidenav').style.width = '100%'
-    // document.getElementById('main').style.marginLeft = '250px'
-    // document.body.style.backgroundColor = 'rgba(0,0,0,0.4)'
+    let x = window.matchMedia('(min-width: 700px)')
+    if (x.matches) { // If media query matches
+      document.getElementById('mySidenav').style.width = '250px'
+      document.getElementById('main').style.marginLeft = '250px'
+    } else {
+      document.getElementById('mySidenav').style.width = '100%'
+    }
+    
+    document.body.style.backgroundColor = 'rgba(0,0,0,0.4)'
   }
 
   /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
